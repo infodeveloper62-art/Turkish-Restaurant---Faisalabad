@@ -1,0 +1,59 @@
+/* Global styles */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-display: "Cinzel", serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom delicate scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #120a09;
+}
+::-webkit-scrollbar-thumb {
+  background: #3f1e1b;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c59b27;
+}
+
+/* Ottoman geometric background pattern */
+.bg-turkish-pattern {
+  background-color: #150d0c;
+  background-image: radial-gradient(#d4af3715 1px, transparent 1px), radial-gradient(#7a111320 1px, #150d0c 1px);
+  background-size: 40px 40px;
+  background-position: 0 0, 20px 20px;
+}
+
+.bg-wood-mangal {
+  background-color: #120a09;
+  background-image: radial-gradient(circle at 50% 0%, rgba(122, 17, 19, 0.45) 0%, rgba(20, 10, 9, 0.95) 75%);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #faeed1 0%, #e5c158 50%, #c59b27 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border-glow {
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.12);
+}
+
+.ruby-border-glow {
+  box-shadow: 0 0 30px rgba(153, 27, 27, 0.25);
+}

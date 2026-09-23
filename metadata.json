@@ -1,0 +1,6 @@
+{
+  "name": "Turkish Restaurant - Faisalabad",
+  "description": "Authentic Turkish cuisine in Faisalabad, Pakistan. Serving genuine Adana kebabs, pide, lahmacun, charcoal grills, baklava, and Turkish tea near Misaq ul Mall, Nishatabad.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
